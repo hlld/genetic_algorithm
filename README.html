@@ -1076,20 +1076,20 @@ body .markdown-body
 <h2 id="_9">运行环境搭建<a class="headerlink" href="#_9" title="Permanent link"></a></h2>
 <p>设计使用Python语言完成，运行脚本需要构建Python的运行环境（如已经具备则跳过）。
 下载安装Python3.x.x，推荐Python3.6.3版本，推荐使用Anaconda3。执行命令安装以下包:
-<div class="codehilite"><pre><span class="n">pip</span> <span class="n">install</span> <span class="n">argparse</span>
-<span class="n">pip</span> <span class="n">install</span> <span class="n">numpy</span>
-<span class="n">pip</span> <span class="n">install</span> <span class="n">matplotlib</span>
+<div class="codehilite"><pre>pip install argparse
+pip install numpy
+pip install matplotlib
 </pre></div></p>
 <h2 id="_10">运行及参数设置<a class="headerlink" href="#_10" title="Permanent link"></a></h2>
 <p>输入以下命令直接运行默认参数：
-<div class="codehilite"><pre><span class="n">python</span> <span class="n">genetic_algorithm</span><span class="o">.</span><span class="n">py</span>
+<div class="codehilite"><pre>python genetic_algorithm.py
 </pre></div>
 默认的运行参数为：&ndash;unities=16, &ndash;p_crossover=0.5, &ndash;p_mutate=0.05, &ndash;iterations=100； 即种群中个体数为16，个体交叉变异的概率为0.5，基因变异的概率为0.05以及算法迭代的次数为100次。
 如需使用自定义运行参数，可在运行脚本时指定。例如设置个体为32，交叉变异概率为0.25，基因变异概率为0.025，算法迭代次数为50次，可输入如下：
-<div class="codehilite"><pre><span class="n">python</span> <span class="n">genetic_algorithm</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span> <span class="n">unities</span><span class="o">=</span><span class="mi">32</span> \
-<span class="o">--</span><span class="n">p_crossover</span><span class="o">=</span><span class="mf">0.25</span> \
-<span class="o">--</span><span class="n">p_mutate</span><span class="o">=</span><span class="mf">0.025</span> \
-<span class="o">--</span><span class="n">iterations</span><span class="o">=</span><span class="mi">50</span>
+<div class="codehilite"><pre>python genetic_algorithm.py --unities=32 \
+--p_crossover=0.25 \
+--p_mutate=0.025 \
+--iterations=50
 </pre></div></p>
 <h2 id="_11">程序流程图<a class="headerlink" href="#_11" title="Permanent link"></a></h2>
 <p><img alt="avatar" src="/E:/GitHub/genetic_algorithm/flow_chart.png" /></p>
