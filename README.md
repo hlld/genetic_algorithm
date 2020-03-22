@@ -41,7 +41,7 @@ python genetic_algorithm.py
 默认的运行参数为：--unities=16, --p_crossover=0.5, --p_mutate=0.05, --iterations=100； 即种群中个体数为16，个体交叉变异的概率为0.5，基因变异的概率为0.05以及算法迭代的次数为100次。
 如需使用自定义运行参数，可在运行脚本时指定。例如设置个体为32，交叉变异概率为0.25，基因变异概率为0.025，算法迭代次数为50次，可输入如下：
 ```python
-python genetic_algorithm.py -- unities=32 \
+python genetic_algorithm.py --unities=32 \
 --p_crossover=0.25 \
 --p_mutate=0.025 \
 --iterations=50
