@@ -1,7 +1,7 @@
 """
 Brief: Genetic algorithm demo for eight queens game.
 Author: Lang Hu
-Student Number: S190301066
+Date: 2020/3/22
 """
 import argparse
 import random
